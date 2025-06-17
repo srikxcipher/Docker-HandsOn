@@ -5,7 +5,7 @@
 Welcome to this **project-driven**, **step-by-step** Docker learning hub. Whether you're a beginner curious about containers or a DevOps enthusiast looking to sharpen your skills — this repo is your playground. Built with 💙 for learners, by a learner.
 
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![Last Update](https://img.shields.io/github/last-commit/srikxcipher/Docker-HandsOn)
 ---
