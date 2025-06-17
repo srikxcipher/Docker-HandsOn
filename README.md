@@ -10,7 +10,7 @@ Welcome to this **project-driven**, **step-by-step** Docker learning hub. Whethe
 ![Last Update](https://img.shields.io/github/last-commit/srikxcipher/Docker-HandsOn)
 ---
 
-## 📦 What You'll Learn
+## What You'll Learn
 
 - Docker basics, images, containers
 - Writing powerful Dockerfiles
@@ -55,12 +55,12 @@ Each folder is a focused lab with:
 ## 🌐 Stay Connected
 
 Follow for updates & new labs:
-- 🔗 [LinkedIn](https://linkedin.com/in/YOUR_NAME)
-- 🐙 [GitHub](https://github.com/YOUR_USERNAME)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/srikantsnehit/)
+- 🔗 [GitHub](https://github.com/srikxcipher)
 
 ---
 
-## 📣 Let’s Connect, Learn & Build Together!
+## Let’s Connect, Learn & Build Together!
 
 Feel free to **fork**, **star**, and contribute!  
 Raise an issue if something breaks — or better — send a PR 💪
