@@ -22,13 +22,12 @@ Welcome to this **project-driven**, **step-by-step** Docker learning hub. Whethe
 
 ---
 
-## Interactive Lab Structure
+## Interactive Structure
 
 Each folder is a focused lab with:
 
 -  A clear, beginner-friendly `README.md`
 -  Hands-on files to run/test
--  Real-world mini-projects to build your portfolio
 
 > Start from `getting-started/` and move your way up the container ladder
 
