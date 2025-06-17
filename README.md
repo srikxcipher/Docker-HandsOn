@@ -64,7 +64,7 @@ Follow for updates & new labs:
 Feel free to **fork**, **star**, and contribute!  
 Raise an issue if something breaks — or better — send a PR 💪
 
-> ✨ _"Containers are the new virtual machines. Learn them now, thank yourself later."_ — You 😉
+![Containers vs. VMs](https://github.com/srikxcipher/Docker-HandsOn/blob/56b4eb08a1fe26db6cfab9a68ac89958513880aa/assets/Banner%20-%20Containers%20vs.%20VMs.png?raw=true)
 
 ---
 
