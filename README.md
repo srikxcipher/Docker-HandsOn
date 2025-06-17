@@ -36,11 +36,11 @@ Each folder is a focused lab with:
 
 ## 📚 Roadmap
 
-| Stage        | Topics Covered                              | Folder               |
-|--------------|---------------------------------------------|----------------------|
-| Beginner   | Hello World, Docker CLI, images, containers | `01` to `02`         |
-| Intermediate | Docker Compose, Volumes, Networking         | `03` to `05`         |
-| Advanced   | CI/CD, DockerHub, Kubernetes Intro          | `06` to `07`         |
+| Stage        | Topics Covered                              |           
+|--------------|---------------------------------------------|
+| Beginner   | Hello World, Docker CLI, images, containers |
+| Intermediate | Docker Compose, Volumes, Networking         |
+| Advanced   | CI/CD, DockerHub, Kubernetes Intro          |
 
 ---
 
