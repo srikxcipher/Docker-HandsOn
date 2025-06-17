@@ -1,4 +1,4 @@
-# 🐳 Docker Made Easy – Hands-on Labs & Tutorials
+# Docker Made Easy – Hands-on Labs & Tutorials
 
 > **Your baby steps into the world of containerization start here.**
 
