@@ -43,7 +43,7 @@ Each folder is a focused lab with:
 
 ---
 
-## 💡 Who's This For?
+## Who's This For?
 
 - ✅ DevOps & Cloud beginners
 - ✅ College students & bootcampers
@@ -51,7 +51,7 @@ Each folder is a focused lab with:
 
 ---
 
-## 🌐 Stay Connected
+## Stay Connected
 
 Follow for updates & new labs:
 - 🔗 [LinkedIn](https://www.linkedin.com/in/srikantsnehit/)
