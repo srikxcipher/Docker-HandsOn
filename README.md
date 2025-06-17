@@ -7,7 +7,7 @@ Welcome to this **project-driven**, **step-by-step** Docker learning hub. Whethe
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![Last Update](https://img.shields.io/github/last-commit/srikxcipher/Docker)
+![Last Update](https://img.shields.io/github/last-commit/srikxcipher/Docker-HandsOn)
 ---
 
 ## 📦 What You'll Learn
