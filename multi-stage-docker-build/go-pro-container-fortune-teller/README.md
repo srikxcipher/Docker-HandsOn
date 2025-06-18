@@ -53,7 +53,7 @@ This project demonstrates:
 
 Want to understand how this works under the hood?
 
-👉 [**View Detailed Walkthrough & Project Files →**](https://github.com/srikxcipher/Docker-HandsOn/tree/main/containerizing-applications/go-container-fortune)
+👉 [**View Detailed Walkthrough & Project Files →**](https://github.com/srikxcipher/Docker-HandsOn/blob/fd79365e7d749cd49984f0f469d7c3367553a3e0/multi-stage-docker-build/go-pro-container-fortune-teller/info.md)
 
 Includes:
 
