@@ -4,6 +4,23 @@
 
 ---
 
+## Instant Try-It-Now (No Setup Needed)
+## Anyone can now run your Django app in seconds using:
+
+```bash
+docker pull srikant25/django-demo:custom01
+```
+```bash
+docker run -p 8000:8000 srikant25/django-demo:custom01
+```
+
+- 🔗 Open in browser:
+```
+http://localhost:8000
+```
+- You'll see a visually styled welcome page rendered from Django templates.
+
+
 ## Project Structure
 
 ```
@@ -45,7 +62,7 @@
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 Make sure you have:
 
