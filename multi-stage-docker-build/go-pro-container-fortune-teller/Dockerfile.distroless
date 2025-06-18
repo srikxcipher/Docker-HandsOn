@@ -1,0 +1,17 @@
+# Stage 1: Build
+FROM golang:1.21 AS builder
+
+WORKDIR /app
+
+COPY main.go .
+
+RUN go mod init go-container-fortune && go mod tidy
+
+# Build static binary for Linux
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o fortune
+
+# Stage 2: Distroless image
+FROM gcr.io/distroless/static
+COPY --from=builder /app/fortune /
+EXPOSE 8080
+CMD ["/fortune"]
