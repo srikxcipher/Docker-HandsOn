@@ -1,0 +1,16 @@
+body {
+    background: #1e1e2f;
+    color: #f5f5f5;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.container {
+    background: #2e2e40;
+    padding: 40px;
+    border-radius: 12px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
