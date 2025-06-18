@@ -51,29 +51,29 @@ They allow containers to:
 ##  Common Docker Volume & Mount Commands
 
 ### Create a named volume
-docker volume create mydata
+- docker volume create mydata
 
 ### List all volumes
-docker volume ls
+- docker volume ls
 
 ### Inspect a specific volume
-docker volume inspect <volume-name>
+- docker volume inspect <volume-name\>
 
 ### Remove one or more volumes
-docker volume rm <volume-name1> <volume-name2>
+- docker volume rm <volume-name1\> <volume-name2\>
 
 ### Use a named volume in a container
-docker run -v mydata:/data my-image
+- docker run -v mydata:/data my-image
 
 ### Use a bind mount (local directory to container)
-docker run -v $(pwd)/logs:/app/logs my-image
+- docker run -v $(pwd)/logs:/app/logs my-image
 
 ### Use --mount syntax for a named volume
-docker run -d --mount source=mydata,target=/app nginx:latest
+- docker run -d --mount source=mydata,target=/app nginx:latest
 
 ### Remove a volume (must first stop/remove any containers using it)
-docker rm <container-name>
-docker volume rm <volume-name>
+- docker rm <container-name\>
+- docker volume rm <volume-name\>
 
 ### Clean up all unused volumes
 docker volume prune
@@ -121,12 +121,16 @@ docker volume prune
 *  Sharing volume between two containers
 *  Syncing code between host and container live
 
-Docker-HandsOn/
-└── docker-volumes-and-mounts/
-    ├── file-logger-app/
-    ├── mysql-volume-persistence/
-    ├── shared-volumes/
-    └── sync-code/
+**Explore here:**
+
+* [Docker-HandsOn/docker-volumes-and-mounts](https://github.com/srikxcipher/Docker-HandsOn/tree/main/docker-mounts-and-volumes)
+
+  * [file-logger-app](https://github.com/srikxcipher/Docker-HandsOn/tree/main/docker-mounts-and-volumes/file-logger-app)
+  * [mysql-volume-persistence](https://github.com/srikxcipher/Docker-HandsOn/tree/main/docker-mounts-and-volumes/mysql-volume-persistence)
+  * [shared-volumes](https://github.com/srikxcipher/Docker-HandsOn/tree/main/docker-mounts-and-volumes/shared-volumes)
+  * [sync-code](https://github.com/srikxcipher/Docker-HandsOn/tree/main/docker-mounts-and-volumes/sync-code)
+
+
 
 
 ---
