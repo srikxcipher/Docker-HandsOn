@@ -13,10 +13,10 @@ In traditional Docker builds, your image often ends up bloated with:
 * Unused dependencies
 
 Result?
-⚠️ Slower builds
-⚠️ Bigger image sizes
-⚠️ Security risks
 
+⚠️ Slower builds  
+⚠️ Bigger image sizes  
+⚠️ Security risks
 Let’s change that.
 
 ---
@@ -149,10 +149,9 @@ FROM gcr.io/distroless/static
 COPY --from=builder /app/app /
 CMD ["/app"]
 ```
-
-✅ No shell
-✅ No bash
-✅ Final image: **10–15 MB**
+✅ No shell  
+✅ No bash  
+✅ Final image: **10–15 MB**  
 ✅ Almost zero CVEs (great for prod & audit compliance)
 
 ---
