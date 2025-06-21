@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  client:
+    # build:
+    #   context: ./client
+    #   dockerfile: ../Dockerfile.client
+    image: srikant25/mood-based-recipe:client
+    volumes:
+      - client_build:/app/dist
+    networks:
+      - app-network
+    command: echo "Client built and shared via volume"
+
+  server:
+    # build:
+    #   context: ./server
+    #   dockerfile: ../Dockerfile.server
+    image: srikant25/mood-based-recipe:server
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - MONGODB_URI=mongodb://mongo:27017/mood-recipes
+    depends_on:
+      - mongo
+      - client
+    volumes:
+      - client_build:/app/public
+    networks:
+      - app-network
+
+  mongo:
+    image: mongo:8.0
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - app-network
+
+volumes:
+  mongo_data:
+  client_build:
+
+networks:
+  app-network:
+    driver: bridge
